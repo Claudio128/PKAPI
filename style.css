@@ -9,9 +9,16 @@ main {
     margin-top: 10rem;
 }
 
+#img {
+    margin-top: 1.5rem;
+    transform: scale(1.5);
+}
+
 #container {
     width: 30%;
     border: 1px solid #000000;
+    border-radius: 10px;
+    padding-top: 2rem;
 }
 
 #container div {
@@ -21,4 +28,24 @@ main {
 
 #div-botao {
     margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+#botao:hover {
+    padding: 5px 15px;
+    background-color: #000000;
+    border: 1px solid #000000;
+    border-radius: 8px;
+    cursor: pointer;
+    color: #ffffff;
+    transition: .5s;
+}
+
+#botao:not(:hover){
+    padding: 5px 15px;
+    background-color: transparent;
+    border: 1px solid #000000;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: .5s;
 }
